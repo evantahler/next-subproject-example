@@ -1,0 +1,22 @@
+{
+  "name": "next-subproject-example",
+  "version": "1.0.0",
+  "author": "Evan Tahler",
+  "license": "ISC",
+  "scripts": {
+    "start": "next start -p $PORT",
+    "dev": "next dev",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepare": "next build"
+  },
+  "dependencies": {
+    "next": "^9.3.2",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "typescript": "^3.8.3"
+  },
+  "devDependencies": {
+    "@types/node": "^13.9.5",
+    "@types/react": "^16.9.26"
+  }
+}
