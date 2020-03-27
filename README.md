@@ -4,7 +4,7 @@ This project aims to demonstrate how you can ship a next.js application as a nod
 
 This sample project has been published to NPM as `next-subproject-example`.
 
-1. Make a new project with the following `package.json`
+1. Make a new project with the following `package.json`, which aims to consume `next-subproject-example`
 
 ```json
 {
@@ -45,4 +45,4 @@ You may need an appropriate loader to handle this file type, currently no loader
 
 Observations:
 
-- If you use `npm link` in this module and then `npm link next-subproject-example` in your project, the next project will build properly. This is not the case when installed from NPM.
+- If you use `npm link` in this module and then `npm link next-subproject-example` in your project, the next project will build properly. This is not the case when installed from NPM. This is a hint that Next might need help locating the proper wepback modules.
