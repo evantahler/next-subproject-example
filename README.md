@@ -18,6 +18,10 @@ This sample project has been published to NPM as `next-subproject-example`.
   "dependencies": {
     "next-subproject-example": "latest"
   },
+  "devDependencies": {
+    "@types/node": "^13.9.5",
+    "@types/react": "^16.9.26"
+  }
   "license": "ISC"
 }
 ```
@@ -26,6 +30,16 @@ This sample project has been published to NPM as `next-subproject-example`.
 3. `npm run dev`
 
 See that there are errors with next building the pages.
+
+```
+[ error ] ./pages/index.tsx 2:9
+Module parse failed: Unexpected token (2:9)
+You may need an appropriate loader to handle this file type, currently no loaders are configured to process this file. See https://webpack.js.org/concepts#loaders
+| export default function Index() {
+>   return <h1>Hello from Next</h1>;
+| }
+|
+```
 
 ---
 
