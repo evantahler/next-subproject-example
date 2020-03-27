@@ -14,7 +14,7 @@ This sample project has been published to NPM as `next-subproject-example`.
   "main": "index.js",
   "scripts": {
     "dev": "cd node_modules/next-subproject-example && npm run dev",
-    "prepare": "cd node_modules/next-subproject-example && npm run build"
+    "build": "cd node_modules/next-subproject-example && npm run prepare"
   },
   "dependencies": {
     "next-subproject-example": "latest"
