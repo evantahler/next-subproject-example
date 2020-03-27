@@ -13,23 +13,24 @@ This sample project has been published to NPM as `next-subproject-example`.
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "cd node_modules/next-subproject-example && npm run dev"
+    "dev": "cd node_modules/next-subproject-example && npm run dev",
+    "prepare": "cd node_modules/next-subproject-example && npm run build"
   },
   "dependencies": {
     "next-subproject-example": "latest"
   },
+  "license": "ISC",
   "devDependencies": {
     "@types/node": "^13.9.5",
     "@types/react": "^16.9.26"
   }
-  "license": "ISC"
 }
 ```
 
 2. `npm install`
 3. `npm run dev`
 
-See that there are errors with next building the pages.
+See that there are errors with next building the pages as you visit http://localhost:3000
 
 ```
 [ error ] ./pages/index.tsx 2:9
@@ -40,6 +41,10 @@ You may need an appropriate loader to handle this file type, currently no loader
 | }
 |
 ```
+
+4. `npm run build`
+
+See similar errors
 
 ---
 
