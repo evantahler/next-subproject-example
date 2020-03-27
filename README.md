@@ -51,3 +51,4 @@ See similar errors
 Observations:
 
 - If you use `npm link` in this module and then `npm link next-subproject-example` in your project, the next project will build properly. This is not the case when installed from NPM. This is a hint that Next might need help locating the proper wepback modules.
+- Switching the page from .tsx to .jsx produces the same errors
