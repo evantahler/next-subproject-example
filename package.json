@@ -10,7 +10,7 @@
     "prepare": "next build"
   },
   "dependencies": {
-    "next": "^9.5.2",
+    "next": "^9.5.3",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "typescript": "^4.0.2"
